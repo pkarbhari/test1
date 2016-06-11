@@ -1,17 +1,22 @@
 "This is a test my language file"
 Code test;
-test Has Functions [ func1, func2 ];
+test Has Functions [ func1, func2, func3 ];
 
 Function func1 (I value1, O value2)
  value2 = value1 + 1;
 End
 
-Function2 (IO value1)
+Function func2 (IO value1)
  If (value1 == 100)
    value1 = 0;
  Else 
    value1 += 1;
 End
+
+Function fnc3 (I value1, IO value2)
+ value2 = value1 + value2;
+End
+
 
 End
 
